@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 0.473 sec <<< FAILURE!
+tearDown(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.tearDown(TestLanzadorIdealistaTestNG.java:117)
+
+tearDown(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.tearDown(TestLanzadorIdealistaTestNG.java:117)
+
