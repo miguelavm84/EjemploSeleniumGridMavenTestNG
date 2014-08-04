@@ -116,5 +116,6 @@ public class TestLanzadorIdealistaTestNG {
 public void tearDown(){
 	driver.quit();
 }
+
 }
 

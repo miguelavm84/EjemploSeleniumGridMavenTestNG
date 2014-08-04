@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="32" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
+  <suite name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" duration-ms="27" started-at="2014-08-04T17:47:50Z" finished-at="2014-08-04T17:47:50Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="32" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
+    <test name="Command line test" duration-ms="27" started-at="2014-08-04T17:47:50Z" finished-at="2014-08-04T17:47:50Z">
       <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
-        <test-method status="FAIL" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="generoDriver" duration-ms="0" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
+        <test-method status="FAIL" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@7a5e1077]" name="generoDriver" duration-ms="0" started-at="2014-08-04T17:47:50Z" finished-at="2014-08-04T17:47:50Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -37,25 +37,25 @@ but has not been marked @Optional or defined
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
 	at org.testng.TestNG.run(TestNG.java:974)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:61)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:115)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="SKIP" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1" started-at="2014-08-04T13:11:02Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-04T13:11:02Z">
+        <test-method status="SKIP" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@7a5e1077]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1" started-at="2014-08-04T17:47:50Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-04T17:47:50Z">
         </test-method>
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@7a5e1077]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-04T17:47:50Z" finished-at="2014-08-04T17:47:50Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -79,18 +79,18 @@ but has not been marked @Optional or defined
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
 	at org.testng.TestNG.run(TestNG.java:974)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:61)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:115)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
           </exception>
