@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="55" started-at="2014-08-04T13:08:03Z" finished-at="2014-08-04T13:08:03Z">
+  <suite name="Command line suite" duration-ms="32" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="55" started-at="2014-08-04T13:08:03Z" finished-at="2014-08-04T13:08:03Z">
+    <test name="Command line test" duration-ms="32" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
       <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
-        <test-method status="FAIL" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2e530cf2]" name="generoDriver" duration-ms="0" started-at="2014-08-04T13:08:03Z" finished-at="2014-08-04T13:08:03Z">
+        <test-method status="FAIL" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="generoDriver" duration-ms="0" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -53,9 +53,9 @@ but has not been marked @Optional or defined
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="SKIP" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2e530cf2]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1" started-at="2014-08-04T13:08:03Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-04T13:08:03Z">
+        <test-method status="SKIP" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1" started-at="2014-08-04T13:11:02Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-04T13:11:02Z">
         </test-method>
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2e530cf2]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-04T13:08:03Z" finished-at="2014-08-04T13:08:03Z">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6581ed9e]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-04T13:11:02Z" finished-at="2014-08-04T13:11:02Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

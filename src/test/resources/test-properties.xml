@@ -6,7 +6,7 @@
     <parameter name="versionBrowser" value="31.0" />
     <parameter name="URL_NODE_HUB" value="http://localhost:4444/wd/hub"/>
     <classes>
-      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.LanzadorIdealistaTestNG"/>
+      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG"/>
     </classes>
   </test> <!-- Test -->
   
@@ -16,7 +16,7 @@
     <parameter name="versionBrowser" value="" />
     <parameter name="URL_NODE_HUB" value="http://localhost:4444/wd/hub"/>
     <classes>
-      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.LanzadorIdealistaTestNG"/>
+      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG"/>
     </classes>
   </test> <!-- Test -->
     
@@ -26,7 +26,7 @@
     <parameter name="versionBrowser" value="" />
     <parameter name="URL_NODE_HUB" value="http://localhost:4444/wd/hub"/>
     <classes>
-      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.LanzadorIdealistaTestNG"/>
+      <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG"/>
     </classes>
   </test> <!-- Test -->
   
