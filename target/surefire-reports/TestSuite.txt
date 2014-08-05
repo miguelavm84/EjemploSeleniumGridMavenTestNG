@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.676 sec <<< FAILURE!
-ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 1.14 sec  <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 12.54 sec <<< FAILURE!
+ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 3.629 sec  <<< FAILURE!
 org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>
 	at org.junit.Assert.assertEquals(Assert.java:123)
 	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)
 	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.ComprarDeactivateHabitacionVacacional(TestLanzadorIdealistaTestNG.java:111)
-ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 2.702 sec  <<< FAILURE!
+ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 6.261 sec  <<< FAILURE!
 org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>
 	at org.junit.Assert.assertEquals(Assert.java:123)
 	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)
 	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.ComprarDeactivateHabitacionVacacional(TestLanzadorIdealistaTestNG.java:111)
-ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 0.972 sec  <<< FAILURE!
+ComprarDeactivateHabitacionVacacional(com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG)  Time elapsed: 1.301 sec  <<< FAILURE!
 org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>
 	at org.junit.Assert.assertEquals(Assert.java:123)
 	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)

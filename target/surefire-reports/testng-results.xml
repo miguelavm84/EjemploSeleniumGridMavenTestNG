@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7089" started-at="2014-08-05T08:54:21Z" finished-at="2014-08-05T08:54:28Z">
+  <suite name="Suite" duration-ms="12034" started-at="2014-08-05T09:11:57Z" finished-at="2014-08-05T09:12:09Z">
     <groups>
     </groups>
-    <test name="Lanzador test Idealista TestNG without parallel (safari)" duration-ms="3583" started-at="2014-08-05T08:54:21Z" finished-at="2014-08-05T08:54:25Z">
+    <test name="Lanzador test Idealista TestNG without parallel (safari)" duration-ms="6982" started-at="2014-08-05T09:11:57Z" finished-at="2014-08-05T09:12:04Z">
       <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
-        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@66e64686]" name="generoDriver" duration-ms="1919" started-at="2014-08-05T10:54:21Z" finished-at="2014-08-05T10:54:23Z">
+        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@5488e2dd]" name="generoDriver" duration-ms="3019" started-at="2014-08-05T11:11:57Z" finished-at="2014-08-05T11:12:00Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generoDriver -->
-        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@66e64686]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1565" started-at="2014-08-05T10:54:23Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T10:54:25Z">
+        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@5488e2dd]" name="ComprarDeactivateHabitacionVacacional" duration-ms="3881" started-at="2014-08-05T11:12:00Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T11:12:04Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>]]>
@@ -70,15 +70,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ComprarDeactivateHabitacionVacacional -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@66e64686]" name="tearDown" is-config="true" duration-ms="75" started-at="2014-08-05T10:54:25Z" finished-at="2014-08-05T10:54:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@5488e2dd]" name="tearDown" is-config="true" duration-ms="62" started-at="2014-08-05T11:12:04Z" finished-at="2014-08-05T11:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG -->
     </test> <!-- Lanzador test Idealista TestNG without parallel (safari) -->
-    <test name="Lanzador test Idealista TestNG without parallel (chrome)" duration-ms="5795" started-at="2014-08-05T08:54:21Z" finished-at="2014-08-05T08:54:27Z">
+    <test name="Lanzador test Idealista TestNG without parallel (chrome)" duration-ms="10267" started-at="2014-08-05T09:11:57Z" finished-at="2014-08-05T09:12:07Z">
       <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
-        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@61a116c9]" name="generoDriver" duration-ms="2353" started-at="2014-08-05T10:54:21Z" finished-at="2014-08-05T10:54:24Z">
+        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2bd1e730]" name="generoDriver" duration-ms="3272" started-at="2014-08-05T11:11:57Z" finished-at="2014-08-05T11:12:00Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generoDriver -->
-        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@61a116c9]" name="ComprarDeactivateHabitacionVacacional" duration-ms="2702" started-at="2014-08-05T10:54:24Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T10:54:26Z">
+        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2bd1e730]" name="ComprarDeactivateHabitacionVacacional" duration-ms="6265" started-at="2014-08-05T11:12:00Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T11:12:06Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>]]>
@@ -141,15 +141,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ComprarDeactivateHabitacionVacacional -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@61a116c9]" name="tearDown" is-config="true" duration-ms="724" started-at="2014-08-05T10:54:26Z" finished-at="2014-08-05T10:54:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@2bd1e730]" name="tearDown" is-config="true" duration-ms="714" started-at="2014-08-05T11:12:06Z" finished-at="2014-08-05T11:12:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG -->
     </test> <!-- Lanzador test Idealista TestNG without parallel (chrome) -->
-    <test name="Lanzador test Idealista TestNG without parallel (firefox)" duration-ms="7089" started-at="2014-08-05T08:54:21Z" finished-at="2014-08-05T08:54:28Z">
+    <test name="Lanzador test Idealista TestNG without parallel (firefox)" duration-ms="12034" started-at="2014-08-05T09:11:57Z" finished-at="2014-08-05T09:12:09Z">
       <class name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
-        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6564dbd5]" name="generoDriver" duration-ms="6012" started-at="2014-08-05T10:54:21Z" finished-at="2014-08-05T10:54:27Z">
+        <test-method status="PASS" signature="generoDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@1cec6b00]" name="generoDriver" duration-ms="10627" started-at="2014-08-05T11:11:57Z" finished-at="2014-08-05T11:12:07Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generoDriver -->
-        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6564dbd5]" name="ComprarDeactivateHabitacionVacacional" duration-ms="972" started-at="2014-08-05T10:54:27Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T10:54:28Z">
+        <test-method status="FAIL" signature="ComprarDeactivateHabitacionVacacional()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@1cec6b00]" name="ComprarDeactivateHabitacionVacacional" duration-ms="1303" started-at="2014-08-05T11:12:07Z" depends-on-methods="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.generoDriver" finished-at="2014-08-05T11:12:09Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:<tru[d]e> but was:<tru[]e>]]>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ComprarDeactivateHabitacionVacacional -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@6564dbd5]" name="tearDown" is-config="true" duration-ms="89" started-at="2014-08-05T10:54:28Z" finished-at="2014-08-05T10:54:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG@1cec6b00]" name="tearDown" is-config="true" duration-ms="88" started-at="2014-08-05T11:12:09Z" finished-at="2014-08-05T11:12:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

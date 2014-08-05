@@ -39,6 +39,30 @@
       </plugin>   
     </plugins>
   </build>
+  <reporting>
+     <plugins>
+         <!-- TestNG-xslt configuracion -->
+         <plugin>
+             <groupId>org.reportyng</groupId>
+             <artifactId>reporty-ng</artifactId>
+             <version>1.2</version>
+             <configuration>
+                 <!-- Directorio de salida para los reportes en xslt de testng -->
+                 <outputdir>/target/testng-xslt-report</outputdir>
+                 <sorttestcaselinks>true</sorttestcaselinks>
+                 <testdetailsfilter>FAIL,SKIP,PASS,CONF,BY_CLASS</testdetailsfilter>
+                 <showruntimetotals>true</showruntimetotals>
+             </configuration>
+         </plugin>
+     </plugins> 
+  </reporting>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>reporty-ng</id>
+      <url>https://github.com/cosminaru/reporty-ng/raw/master/dist/maven</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencies>           
     <dependency>
