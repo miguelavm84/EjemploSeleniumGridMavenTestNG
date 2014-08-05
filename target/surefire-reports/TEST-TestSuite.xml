@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="2" time="1.526" errors="0" skipped="2" tests="4" name="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG">
+<testsuite failures="3" time="10.819" errors="0" skipped="0" tests="6" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -62,22 +62,28 @@
     <property name="mrj.version" value="1070.1.6.0_65-462"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.373" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="generoDriver">
-    <skipped/>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@41fc2fb
-</system-out>
-  </testcase>
-  <testcase time="0.374" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="ComprarDeactivateHabitacionVacacional">
-    <skipped/>
-  </testcase>
-  <testcase time="0.389" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="tearDown">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.tearDown(TestLanzadorIdealistaTestNG.java:117)
+  <testcase time="1.918" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="generoDriver"/>
+  <testcase time="0.429" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="generoDriver"/>
+  <testcase time="1.14" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="ComprarDeactivateHabitacionVacacional">
+    <failure message="Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;
+	at org.junit.Assert.assertEquals(Assert.java:123)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.ComprarDeactivateHabitacionVacacional(TestLanzadorIdealistaTestNG.java:111)
 </failure>
   </testcase>
-  <testcase time="0.39" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="tearDown">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.tearDown(TestLanzadorIdealistaTestNG.java:117)
+  <testcase time="2.702" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="ComprarDeactivateHabitacionVacacional">
+    <failure message="Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;
+	at org.junit.Assert.assertEquals(Assert.java:123)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.ComprarDeactivateHabitacionVacacional(TestLanzadorIdealistaTestNG.java:111)
+</failure>
+  </testcase>
+  <testcase time="3.658" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="generoDriver"/>
+  <testcase time="0.972" classname="com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG" name="ComprarDeactivateHabitacionVacacional">
+    <failure message="Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Es posible seleccionar vacacional cuando hemos seleccionado comprar como tipo de servicio expected:&lt;tru[d]e&gt; but was:&lt;tru[]e&gt;
+	at org.junit.Assert.assertEquals(Assert.java:123)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.ManejadorPrograma.logicaPrograma(ManejadorPrograma.java:56)
+	at com.pruebas.seleniumGridTestNG.dataDrivenParallelXML.TestLanzadorIdealistaTestNG.ComprarDeactivateHabitacionVacacional(TestLanzadorIdealistaTestNG.java:111)
 </failure>
   </testcase>
 </testsuite>
